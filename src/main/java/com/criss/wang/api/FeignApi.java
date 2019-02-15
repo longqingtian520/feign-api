@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("criss-feign")
+@FeignClient("feign-app")
 public interface FeignApi {
 
 	@RequestMapping(value = "/fegin", method = RequestMethod.GET)
