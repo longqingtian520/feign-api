@@ -1,4 +1,4 @@
-package com.criss.wang;
+package com.criss.wang.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
